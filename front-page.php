@@ -6,27 +6,21 @@
     <img class="image-front" src="<?php bloginfo('template_directory'); ?>/img/bandplaying.jpg" alt="ig"/>
   </div>
 </section>
-
 <style>
 
 .showcase{
   background-image:url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/new_landing.jpg'); ?>) no-repeat center
   background-size: 300px 100px;
-
 }
 
 @media only screen and (max-width: 400px) {
   .showcase {
     background: yellow;
-
   }
-
   .image-front{
     opacity: 0;
     /* display: none; */
   }
-
-
 }
 
 .navbar-brand{
